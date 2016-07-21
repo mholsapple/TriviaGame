@@ -1,8 +1,8 @@
 (function() {
   var questions = [{
     question1: "Who went back for more kisses in Snow White and the Seven Dwarfs?",
-    choices: [Grumpy, Sleepy, Dopey, Happy],
-    correctAnswer: Dopey
+    choices: [assets/images/buttons/grumpy.png, assets/images/buttons/sleepy.png, assets/images/buttons/dopey.png, assets/images/buttons/happy.png],
+    correctAnswer: assets/images/buttons/dopey.png
   }, {
     question2: "Who has large ears and flys?",
     choices: [Goofy, Tinkerbell, Mickey, Dumbo],
@@ -51,30 +51,30 @@
     unAnswered: 0,
 
     //Functions
-    timer: function(){
+    // timer: function(){
 
-        // var number = 30;
-        // // $('#stop').on('click', stop);
-        // // $('#resume').on('click', run);
+    //     var number = 30;
+    //     // $('#stop').on('click', stop);
+    //     // $('#resume').on('click', run);
 
-        // function run(){
-        //     counter = setInterval(decrement, 1000);
-        // }
+    //     function run(){
+    //         counter = setInterval(decrement, 1000);
+    //     }
 
-        // function decrement(){
-        //     number--;
-        //     $('#show-number').html('<h2>' + number + '</h2>');
-        //     if (number === 0){
-        //         stop();
-        //         alert('Time Up!')
-        //     }
-        // }
+    //     function decrement(){
+    //         number--;
+    //         $('#show-number').html('<h2>' + number + '</h2>');
+    //         if (number === 0){
+    //             stop();
+    //             alert('Time Up!')
+    //         }
+    //     }
 
-        // function stop(){
-        //     clearInterval(counter);
-        // }
+    //     function stop(){
+    //         clearInterval(counter);
+    //     }
 
-        // run();
+    //     run();
 
 
     },
@@ -87,6 +87,7 @@
 
     },
     checkGuess: function(){
+
 
       questionNumber++
       if (this.questionNumber === questionsArray.length) {
